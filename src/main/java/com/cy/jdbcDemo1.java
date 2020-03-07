@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 public class jdbcDemo1 {
 
     public static void main(String[] args) throws Exception {
+        //changed something here
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/eesy", "root", "root");
         PreparedStatement pstm = conn.prepareStatement("select * from account");

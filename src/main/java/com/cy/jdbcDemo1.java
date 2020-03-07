@@ -5,8 +5,13 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-public class jdbcDemo1 {
 
+public class jdbcDemo1 {
+    /**
+     * JDBC调用方法
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         //changed something here
         Class.forName("com.mysql.jdbc.Driver");
